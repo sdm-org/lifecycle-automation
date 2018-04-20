@@ -389,7 +389,7 @@ export const configuration: Configuration = {
     ws: {
         compress: false,
         termination: {
-            gracePeriod: 5008,
+            gracePeriod: 5009,
         },
     },
     logging: {
