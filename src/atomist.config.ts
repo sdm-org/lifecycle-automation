@@ -207,7 +207,7 @@ export const configuration: Configuration = {
         secured.githubTeam(() => new CloudFoundryApplicationDetail(), AdminTeam),
         secured.githubTeam(() => new ScaleCloudFoundryApplication(), AdminTeam),
         secured.githubTeam(() => new StartCloudFoundryApplication(), AdminTeam),
-        secured.githubTeam(() => new StopCloudFoundryApplication(), AdminTeam),
+        secured.githubTeam(() =>  new StopCloudFoundryApplication(), AdminTeam),
 
         // github
         () => new ApproveGitHubCommit(),
