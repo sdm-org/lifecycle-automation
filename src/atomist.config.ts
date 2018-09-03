@@ -384,7 +384,7 @@ export const configuration: Configuration = {
     },
     statsd: {
         host: "dd-agent",
-        port: 8125,
+        port: 8126,
     },
     ws: {
         compress: false,
