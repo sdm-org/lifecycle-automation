@@ -398,4 +398,4 @@ export const configuration: Configuration = {
 };
 
 // Allow logging of memory footprint
-initMemoryMonitoring(`${appRoot.path}/heap`, false);
+initMemoryMonitoring(`${appRoot.path}/heapssss`, false);
