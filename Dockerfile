@@ -7,7 +7,7 @@ RUN curl -s -L -O https://github.com/Yelp/dumb-init/releases/download/v$DUMB_INI
     && rm -f dumb-init_${DUMB_INIT_VERSION}_amd64.deb
 
 RUN curl -sL https://deb.nodesource.com/setup_9.x | bash - \
-    && npm i -g npm
+    && npm install -g npm@6.4.1
 
 RUN mkdir -p /app
 
