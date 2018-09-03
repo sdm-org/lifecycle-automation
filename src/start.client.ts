@@ -32,5 +32,5 @@ loadSecretsFromConfigServer()
     .then(configuration => {
         const node = automationClient(configuration);
         return node.run()
-            .then(() => logger.info("Succddessssfully completed startup of process '%s'", process.pid));
+            .then(() => logger.info("Suc  cddessssfully completed startup of process '%s'", process.pid));
     });
